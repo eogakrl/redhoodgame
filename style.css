@@ -1,31 +1,85 @@
-body{
-	font-family: 'Montserrat', sans-serif;
-    display: inline-block;
-    vertical-align: middle;
+body,.bg {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    
 }
 header{
-    background-color: white;
-    width: 1500px;
-}
-h1{
-    padding: 15px;
-    text-align: center;
-}
-.botao{
-    text-align: center;
-    margin-top: 100px;
-    border: solid 1px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
-main, div{
+
+.redhood {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content:flex-start;
+    background: rgb(223, 18, 18); 
+    color: rgb(220, 220, 255);
+    border-radius: 7px;
+    padding: 1px;
+    font-family:Arial, Helvetica, sans-serif
+    width: 75%;
+    }
+ .logo{
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+ }
+.intro {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    color:rgb(196, 13, 13);
 }
-footer{
-    padding: 15%;
+
+
+.skins {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:center;
+        
+}
+
+.skins img:hover {
+    border-radius: 50px;
+
+}
+.skins img {
+    display:flex;
+    margin: 15px;    
+}
+
+.botao {
+    display: flex;
+    margin-left: 25px;
+    text-align: center;
+    
+}
+
+.botao {
+    border-radius: 15px;
+    height: 15%;
+}
+
+li{
+    border: solid 1px;
+}
+
+.botao:hover{
+        border-radius: 50px ;
+        color: rgb(255, 0, 0);
+        font-weight: bold;
+}
+
+.copyright {
+    background: rgba(0, 0, 0);
+    color:wheat;
+    margin-top: 15%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
 }
