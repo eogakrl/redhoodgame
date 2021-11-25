@@ -32,7 +32,7 @@ function escolhalenha2 () {
             }
             }
 function escolhachapeu () {
-                var opcoes = prompt ("1 - Continuar em casa, pois está um dia agravel para não fazer nada. \n2 - Levantar e ir caminhar afinal está um dia lindo lá fora.");
+                var opcoes = prompt ("1 - Sai correndo  \n2 - Vai atras do barulho");
                 if (opcoes == 1) {
                     return location = "./chapeu02.html"
                 } else if (opcoes == 2) {
