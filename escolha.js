@@ -21,7 +21,7 @@ function escolhalenha1 () {
         }
         }
 function escolhalenha2 () {
-            var opcoes = prompt ("1 - Continuar em casa, pois está um dia agravel para não fazer nada. \n2 - Levantar e ir caminhar afinal está um dia lindo lá fora.");
+            var opcoes = prompt ("1 - Perseguir e matar o lobo . \n2 - Não fazer nada ");
             if (opcoes == 1) {
                 return location = "./lenhawin.html"
             } else if (opcoes == 2) {
