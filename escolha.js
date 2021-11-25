@@ -10,11 +10,11 @@ function escolhalenha () {
     }
     }
 function escolhalenha1 () {
-        var opcoes = prompt ("1 - Continuar em casa, pois está um dia agravel para não fazer nada. \n2 - Levantar e ir caminhar afinal está um dia lindo lá fora.");
+        var opcoes = prompt ("1 - nada, afinal Não deve ser nada demais. \n2 - Se esconder e ficar atento.");
         if (opcoes == 1) {
-            return location = "./lobo03.html"
-        } else if (opcoes == 2) {
             return location = "./lenhaover.html"
+        } else if (opcoes == 2) {
+            return location = "./lenha03.html"
         } else {
         alert ('Opção inválida')
         return escolha ();
